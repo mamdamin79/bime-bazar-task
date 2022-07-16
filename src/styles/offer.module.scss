@@ -1,0 +1,81 @@
+@import "../variables/variables.scss";
+.container{
+    background-color:white;
+    padding: 12px;
+    box-shadow: $boxShadow;
+    margin:12px 0;
+    border-radius:$borderRadius;
+
+
+}
+.offer{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:12px 0;
+    p{
+        text-align:center;
+        color: #0f172a;
+        font-weight:medium;
+    }
+    button{
+        color: #fff;
+        padding:8px 24px;
+        background-color: $blackColor;
+        box-shadow: $boxShadow;
+        border-radius:2px;
+        -webkit-border-radius:2px;
+        -moz-border-radius:2px;
+        -ms-border-radius:2px;
+        -o-border-radius:2px;
+    }
+    span{
+        margin: 0 8px;
+    }
+}
+
+.logoContainer{
+    img{
+        width: 60px;
+        height: 50px;
+        object-fit: cover;
+        margin-bottom: 8px;
+    }
+    p{
+        text-align: center;
+    }
+}
+.heading {
+    margin-bottom:8px;
+    color:#6b7280;
+}
+.priceContainer{
+    border:2px solid rgb(194, 192, 192);
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    
+}
+// "text-gray-500 decoration-slate-500 line-through text-center"
+.discount{
+    text-decoration: line-through;
+    text-align: center;
+    color: #979cac
+    
+}
+.badge{
+    padding: 4px 8px;
+    color: #166534;
+    background-color:#dcfce7;
+    border-radius:$borderRadius;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+}

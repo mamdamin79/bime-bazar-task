@@ -1,0 +1,11 @@
+@import "../variables/variables.scss";
+.alert{
+    padding:8px;
+    box-shadow: $boxShadow;
+    background-color:#dcfce7;
+    border-radius:$borderRadius;
+    margin-bottom: 8px;
+    p{
+        color: #166534;
+    }
+}

@@ -1,0 +1,24 @@
+@import "../variables/variables.scss";
+.sortBar{
+    background-color:white;
+    padding: 8px;
+    border-radius:$borderRadius;
+    box-shadow: $boxShadow;
+    h3{
+        margin-bottom: 8px;
+        color: gray;
+    }
+}
+
+.active {
+    padding: 8px;
+    border: 2px solid gainsboro;
+    background-color: $yellowColor;
+    margin:0 8px;
+
+}
+.deactive {
+    padding: 8px;
+    border: 2px solid gainsboro;
+    margin:0 8px;
+}
